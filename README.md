@@ -11,6 +11,8 @@ Goals:
 
 If you know how to solve a problm here, a pull request is appreciated. Otherwise I'll muddle!
 
+- Note: This project requires the Xcode 15 beta and targets both macOS and iOS. If you're running the Xcode beta but *not* the macOS beta, you'll need to set your run destination to an iOS target (probably a simulator).
+
 # Building a document-based app using SwiftData
 
 Code along with the WWDC presenter to transform an app with SwiftData.
