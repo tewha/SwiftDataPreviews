@@ -4,6 +4,13 @@ Based on Apple Sample Code [Building a document-based app using SwiftData](https
 
 License, etc. are from Apple.
 
+Goals:
+
+1. Make the app function as it should.
+2. Add previews to all views.
+
+If you know how to solve a problm here, a pull request is appreciated. Otherwise I'll muddle!
+
 # Building a document-based app using SwiftData
 
 Code along with the WWDC presenter to transform an app with SwiftData.
