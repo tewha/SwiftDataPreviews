@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:End"
+      location = "group:SwiftDataFlashCardSample"
       name = "End">
       <FileRef
          location = "group:SwiftDataFlashCardSample.xcodeproj">
