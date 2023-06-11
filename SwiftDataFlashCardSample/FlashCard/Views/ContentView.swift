@@ -28,6 +28,7 @@ struct ContentView: View {
             }
             .padding()
             .toolbar { EditorToolbar(isEnabled: false, editing: $editing) }
+            .toolbarRole(.automatic)
         }
     }
 }
