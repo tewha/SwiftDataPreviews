@@ -1,3 +1,9 @@
+# SwiftDataPreviews
+
+Based on Apple Sample Code [Building a document-based app using SwiftData](https://developer.apple.com/documentation/swiftui/building-a-document-based-app-using-swiftdata).
+
+License, etc. are from Apple.
+
 # Building a document-based app using SwiftData
 
 Code along with the WWDC presenter to transform an app with SwiftData.
