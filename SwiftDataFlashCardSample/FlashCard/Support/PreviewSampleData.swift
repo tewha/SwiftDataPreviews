@@ -7,14 +7,15 @@ A view modifier for showing sample data in previews.
 
 import SwiftData
 
-@MainActor
 let previewContainer: ModelContainer = {
     do {
         let container = try ModelContainer(
             for: Card.self, ModelConfiguration(inMemory: true)
         )
-        for card in SampleDeck.contents {
-            container.mainContext.insert(object: card)
+        Task { @MainActor in
+	        for card in SampleDeck.contents {
+                container.mainContext.insert(object: card)
+            }
         }
         return container
     } catch {
