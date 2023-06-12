@@ -60,3 +60,7 @@ struct CardCarousel: View {
         .onChange(of: selectedCardID) { focusCardID = $1 }
     }
 }
+
+#Preview {
+    CardCarousel(editing: false, cards: Card.examples, selectedCard: Card.examples[1])
+}

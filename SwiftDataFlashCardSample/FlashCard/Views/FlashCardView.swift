@@ -38,3 +38,7 @@ struct FlashCardView: View {
         .padding(.horizontal, Design.carouselCardHorizontalPadding)
     }
 }
+
+#Preview {
+    return FlashCardView(card: Card.example)
+}

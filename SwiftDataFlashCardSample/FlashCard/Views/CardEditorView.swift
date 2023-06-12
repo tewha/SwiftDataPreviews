@@ -71,3 +71,7 @@ private struct CardFieldLabeledContentStyle: LabeledContentStyle {
         }
     }
 }
+
+#Preview {
+    CardEditorView(card: Card.example)
+}
