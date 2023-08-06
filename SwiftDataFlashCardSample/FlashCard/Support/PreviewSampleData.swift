@@ -16,7 +16,7 @@ struct PreviewSampleData {
             )
             Task { @MainActor in
                 for card in SampleDeck.contents {
-                    container.mainContext.insert(object: card)
+                    container.mainContext.insert(card)
                 }
             }
             return container
